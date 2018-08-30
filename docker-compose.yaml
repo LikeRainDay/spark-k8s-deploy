@@ -1,0 +1,6 @@
+version: "3"
+services: 
+   spark-master:
+     build: .
+     image: dalongrong/spark-master:2.3.1-hadoop2.7-new
+
